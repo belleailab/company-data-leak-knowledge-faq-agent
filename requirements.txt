@@ -1,0 +1,3 @@
+# Needed only for README path B (python agent.py). Path A needs nothing installed.
+# Pinned to the version this repo was built against (same pin as cafe-faq-agent).
+agency-swarm==1.11.0
