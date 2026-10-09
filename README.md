@@ -1,6 +1,6 @@
-# 企業資安防護問答助手 — 預覽/試用版（FAQ01）
+# 企業資安防漏問答助手 — 預覽/試用版（FAQ01）
 
-（英文代號：`company-data-security-faq-agent`）
+（英文代號：`company-data-leak-faq-agent`）
 
 回答公司導入問答 AI agent（AI 代理人）時最常見的資料安全問題：什麼資料會進去、什麼叫外洩、為什麼偵測到不等於修好了。
 
@@ -17,12 +17,12 @@
 ## A｜你已經有 Claude Code 或 Codex 訂閱 → 不用另外付費
 
 1. 安裝 CLI（擇一）：Claude Code https://code.claude.com/docs/en/setup ｜ Codex https://github.com/openai/codex
-2. 下載這個 repo（綠色 Code 按鈕 → Download ZIP，解壓縮），或 `git clone https://github.com/belleailab/company-data-security-faq-agent`
+2. 下載這個 repo（綠色 Code 按鈕 → Download ZIP，解壓縮），或 `git clone https://github.com/belleailab/company-data-leak-faq-agent`
 3. 打開終端機（Windows：PowerShell；Mac：Terminal），進入資料夾：
    ```
-   cd company-data-security-faq-agent
+   cd company-data-leak-faq-agent
    ```
-   用 ZIP 下載的話，資料夾名稱是 `company-data-security-faq-agent-main`。
+   用 ZIP 下載的話，資料夾名稱是 `company-data-leak-faq-agent-main`。
 4. 啟動 CLI（`claude` 或 `codex`），然後對它說：
    ```
    請扮演這個 repo 裡的 agent：依照 instructions.md 的角色和 knowledge/ 的內容回答我。
