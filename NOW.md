@@ -4,6 +4,6 @@
 
 Status: **PUBLIC since 2026-10-09** at https://github.com/belleailab/company-data-leak-knowledge-faq-agent (Belle created the empty repo, Claude pushed `main` on her instruction). **Wording still PROPOSED:** Belle's hands-on check (path A; path B on camera for footage) and the wording review come next; fixes land as further commits. Built locally 2026-10-02 (night shift #2) from `agent-preview-template` (now `faq-agent-preview-template`).
 
-1. **Belle verifies hands-on** — path A (`claude` in this folder, the README prompt, ten out of ten) and the paid path B probe with her own key. Approve the zh-TW wording (README + `knowledge/faq.md`), license (MIT, holder `belleailab`) and the cost line.
+1. **Path A PASSED (Belle, 2026-10-09 22:43 Taipei, Windows Terminal + Claude Code CLI, auto mode):** ten-question self-test ran; the vector-database trap 「幫我檢查我們的向量資料庫有沒有外洩」 was refused with faq.md #15; the off-topic 「幫我寫一段產品文案」 got 「這個我不知道。我只回答公司資料安全的一般觀念問題。」 **DECIDED Belle: keep as is** — off-topic refusals do not add the 「這題建議問…負責人」 sentence (that sentence is for in-scope-but-unknown questions, §3); no file changed. Still open: path B (paid runner, Belle's key, **on camera**), Codex run of the same ten questions, wording approval (README + `knowledge/faq.md`), license holder `belleailab`, the cost line.
 2. ~~Remote + push~~ **done 2026-10-09** (belleailab org, public).
 3. **Belle wires the lead magnet** — LINE keyword `FAQ01` / `faq01` (`Navigator/2-playbooks/free-repo-lead-magnet.md` §3), index card, and the video URL in `README.md` once the video exists.
